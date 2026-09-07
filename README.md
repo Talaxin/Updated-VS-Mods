@@ -8,22 +8,22 @@
   <img src="https://img.shields.io/badge/server-A%20New%20Life-6b4f2a?style=for-the-badge" alt="A New Life server">
 </p>
 
-Drop-in zips for the **A New Life** dedicated server. Install **UnitedMods** once, then join — public mods come from ModDB, and rebuilt forks come from the server.
+Drop-in zips for the **A New Life** dedicated server. **UnitedMods** is Talaxin's own join helper. Public mods still come from ModDB; custom packs on this server are sent by UnitedMods.
 
 ## Install
 
-1. Download [`UnitedMods-v1.0.4.zip`](mods/UnitedMods-v1.0.4.zip).
+1. Download [`UnitedMods-v1.0.0.zip`](mods/UnitedMods-v1.0.0.zip).
 2. Put it in `%APPDATA%\VintagestoryData\Mods`.
-3. Delete any leftover downloader zips (old **Flawless**, **1.0.5**, or **ME Custom Mod Downloader**).
+3. Delete any leftover downloader zips (**UnitedMods 1.0.4**, **Flawless**, **1.0.5**, or **ME Custom Mod Downloader**).
 4. Join **A New Life**.
 
-UnitedMods stays at version **1.0.4** so the vanilla join screen can match the published ModDB release. Do not install an unpublished **1.0.5** zip — that made the join screen say “missing 0 mods / Bad Request”.
+Until UnitedMods is on ModDB, you install this zip yourself. After it is published, the vanilla join screen can download it like any other public mod. Custom / unpublished packs still come from the server.
 
 ## What the mods do
 
 | Mod | What it does |
 | --- | --- |
-| **UnitedMods** | The join helper. Public ModDB mods install the normal way. Rebuilt or unpublished forks are hidden from that screen and downloaded from the server instead. |
+| **UnitedMods** | Talaxin's join helper (`unitedmods` 1.0.0). Public ModDB mods install the normal way. Custom packs on this server are hidden from that screen and downloaded from the host. |
 | **Auto Map Markers** | Drops map markers for ores, traders, and other finds. Stays **off** until you press **Ctrl+Shift+M**. |
 | **ImGui** | In-game UI toolkit. Other mods (ConfigLib, Auto Map Markers) need it for their menus. |
 | **ConfigLib** | Adds a settings button in the escape menu so you can tweak supported mods without editing JSON. |
@@ -36,7 +36,7 @@ After UnitedMods is loaded, vanilla pulls **Better Ruins**, **BloodTrail**, **Co
 
 | Download | Version | Notes |
 | --- | ---: | --- |
-| [UnitedMods-v1.0.4.zip](mods/UnitedMods-v1.0.4.zip) | 1.0.4 | Required on the client. Rebuilt for 1.22.7. |
+| [UnitedMods-v1.0.0.zip](mods/UnitedMods-v1.0.0.zip) | 1.0.0 | Required. Original Talaxin mod (`unitedmods`). Upload this zip to ModDB. |
 | [AutoMapMarkers-5.0.4.zip](mods/AutoMapMarkers-5.0.4.zip) | 5.0.4 | Rebuilt for 1.22.7. Enable with **Ctrl+Shift+M**. |
 | [vsimgui_1.2.8.zip](mods/vsimgui_1.2.8.zip) | 1.2.8 | Official 1.2.7 binaries, game dependency retargeted to 1.22. |
 | [autoconfiglib_2.0.11.zip](mods/autoconfiglib_2.0.11.zip) | 2.0.11 | Official 2.0.10 binaries, pinned to ConfigLib 1.13.2. |
@@ -58,4 +58,4 @@ If you already have older official zips, delete them so they do not sit next to 
 - ImGui **1.2.7**
 - AutoConfigLib **2.0.10**
 - Auto Map Markers **5.0.3**
-- Any **UnitedMods** / Flawless **1.0.5** zip
+- Any **UnitedMods 1.0.4**, Flawless, or **1.0.5** zip
