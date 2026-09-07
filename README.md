@@ -2,11 +2,11 @@
 
 Drop-in zips for the **A New Life** server on Vintage Story **1.22.7**.
 
-Normal join path: install **ME Custom Mod Downloader** once from [ModDB](https://mods.vintagestory.at/show/mod/60722). After that the server sends the custom zips itself. These files are a manual fallback.
+Install **Flawless 1.0.5** once (this repo — the ModDB 1.0.4 build is tagged 1.22.2 and will not join 1.22.7). After that, vanilla pulls Better Ruins / BloodTrail / ConfigLib from ModDB, then Flawless sends the custom zips from the server.
 
 | Zip | Mod id | Version | Notes |
 | --- | --- | --- | --- |
-| [mods/mecustommoddownloader_1.2.7.zip](mods/mecustommoddownloader_1.2.7.zip) | `mecustommoddownloader` | 1.2.7 | Official. Needed once so the server can send the rest. Also on ModDB. |
+| [mods/flawlesssvanaxforkv1.0.5.zip](mods/flawlesssvanaxforkv1.0.5.zip) | `flawlesssvanaxfork` | 1.0.5 | 1.22.7. Put this in `%APPDATA%\VintagestoryData\Mods` and delete any 1.0.4 zip. |
 | [mods/AutoMapMarkers-5.0.4.zip](mods/AutoMapMarkers-5.0.4.zip) | `egocaribautomapmarkers` | 5.0.4 | Rebuilt for 1.22.7. Stays **off** until you press **Ctrl+Shift+M**. |
 | [mods/vsimgui_1.2.8.zip](mods/vsimgui_1.2.8.zip) | `vsimgui` | 1.2.8 | Official 1.2.7 binaries, game dependency retargeted to 1.22. |
 | [mods/autoconfiglib_2.0.11.zip](mods/autoconfiglib_2.0.11.zip) | `autoconfiglib` | 2.0.11 | Official 2.0.10 binaries, pinned to ConfigLib 1.13.2. |
