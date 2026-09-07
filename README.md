@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="A New Life — Vintage Story 1.22.7" width="100%">
+  <img src="banner.png" alt="UnitedMods — Vintage Story 1.22.7" width="100%">
 </p>
 
 <p align="center">
