@@ -1,18 +1,61 @@
-# Updated Vintage Story mods (1.22.7)
+<p align="center">
+  <img src="banner.svg" alt="A New Life — Vintage Story 1.22.7" width="100%">
+</p>
 
-Drop-in zips for the **A New Life** server on Vintage Story **1.22.7**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Vintage%20Story-1.22.7-8B5A2B?style=for-the-badge" alt="Vintage Story 1.22.7">
+  <img src="https://img.shields.io/badge/UnitedMods-required-3d5a40?style=for-the-badge" alt="UnitedMods required">
+  <img src="https://img.shields.io/badge/server-A%20New%20Life-6b4f2a?style=for-the-badge" alt="A New Life server">
+</p>
 
-Install **Flawless** once. The zip below is still version **1.0.4** (so ModDB does not 400), rebuilt for 1.22.7. Delete any **1.0.5** zip — that unpublished version made the join screen say “missing 0 mods / Bad Request”. Official ModDB 1.0.4 also works on the client; the server uses this patched build to hide unpublished forks from that screen.
+Drop-in zips for the **A New Life** dedicated server. Install **UnitedMods** once, then join — public mods come from ModDB, and rebuilt forks come from the server.
 
-After Flawless is loaded, vanilla pulls Better Ruins / BloodTrail / ConfigLib from ModDB, then Flawless sends Auto Map Markers 5.0.4, ImGui 1.2.8, and AutoConfigLib 2.0.11 from the server.
+## Install
 
-| Zip | Mod id | Version | Notes |
-| --- | --- | --- | --- |
-| [mods/flawlesssvanaxforkv1.0.4-1227.zip](mods/flawlesssvanaxforkv1.0.4-1227.zip) | `flawlesssvanaxfork` | 1.0.4 | Put in `%APPDATA%\VintagestoryData\Mods`. Delete 1.0.5. |
-| [mods/AutoMapMarkers-5.0.4.zip](mods/AutoMapMarkers-5.0.4.zip) | `egocaribautomapmarkers` | 5.0.4 | Rebuilt for 1.22.7. Stays **off** until you press **Ctrl+Shift+M**. |
-| [mods/vsimgui_1.2.8.zip](mods/vsimgui_1.2.8.zip) | `vsimgui` | 1.2.8 | Official 1.2.7 binaries, game dependency retargeted to 1.22. |
-| [mods/autoconfiglib_2.0.11.zip](mods/autoconfiglib_2.0.11.zip) | `autoconfiglib` | 2.0.11 | Official 2.0.10 binaries, pinned to ConfigLib 1.13.2. |
-| [mods/configlib_1.13.2.zip](mods/configlib_1.13.2.zip) | `configlib` | 1.13.2 | Official release (also on ModDB). |
-| [mods/bloodtrailpersist_1.0.0.zip](mods/bloodtrailpersist_1.0.0.zip) | `bloodtrailpersist` | 1.0.0 | Keeps BloodTrail pools after harvest. Requires BloodTrail 1.2.5. |
+1. Download [`UnitedMods-v1.0.4.zip`](mods/UnitedMods-v1.0.4.zip).
+2. Put it in `%APPDATA%\VintagestoryData\Mods`.
+3. Delete any leftover downloader zips (old **Flawless**, **1.0.5**, or **ME Custom Mod Downloader**).
+4. Join **A New Life**.
 
-If you already have older official versions (ImGui 1.2.7, AutoConfigLib 2.0.10, Auto Map Markers 5.0.3), delete those zips first so they do not conflict.
+UnitedMods stays at version **1.0.4** so the vanilla join screen can match the published ModDB release. Do not install an unpublished **1.0.5** zip — that made the join screen say “missing 0 mods / Bad Request”.
+
+## What the mods do
+
+| Mod | What it does |
+| --- | --- |
+| **UnitedMods** | The join helper. Public ModDB mods install the normal way. Rebuilt or unpublished forks are hidden from that screen and downloaded from the server instead. |
+| **Auto Map Markers** | Drops map markers for ores, traders, and other finds. Stays **off** until you press **Ctrl+Shift+M**. |
+| **ImGui** | In-game UI toolkit. Other mods (ConfigLib, Auto Map Markers) need it for their menus. |
+| **ConfigLib** | Adds a settings button in the escape menu so you can tweak supported mods without editing JSON. |
+| **AutoConfigLib** | Extra config helpers used by Auto Map Markers. Pinned to ConfigLib 1.13.2. |
+| **BloodTrail Persist** | Optional sidecar: BloodTrail pools stay after you harvest an animal. Needs BloodTrail 1.2.5. |
+
+After UnitedMods is loaded, vanilla pulls **Better Ruins**, **BloodTrail**, **ConfigLib**, and **Footprints** from ModDB. UnitedMods then sends **Auto Map Markers 5.0.4**, **ImGui 1.2.8**, and **AutoConfigLib 2.0.11** from the server.
+
+## Downloads
+
+| Download | Version | Notes |
+| --- | ---: | --- |
+| [UnitedMods-v1.0.4.zip](mods/UnitedMods-v1.0.4.zip) | 1.0.4 | Required on the client. Rebuilt for 1.22.7. |
+| [AutoMapMarkers-5.0.4.zip](mods/AutoMapMarkers-5.0.4.zip) | 5.0.4 | Rebuilt for 1.22.7. Enable with **Ctrl+Shift+M**. |
+| [vsimgui_1.2.8.zip](mods/vsimgui_1.2.8.zip) | 1.2.8 | Official 1.2.7 binaries, game dependency retargeted to 1.22. |
+| [autoconfiglib_2.0.11.zip](mods/autoconfiglib_2.0.11.zip) | 2.0.11 | Official 2.0.10 binaries, pinned to ConfigLib 1.13.2. |
+| [configlib_1.13.2.zip](mods/configlib_1.13.2.zip) | 1.13.2 | Official release (also on ModDB). |
+| [bloodtrailpersist_1.0.0.zip](mods/bloodtrailpersist_1.0.0.zip) | 1.0.0 | Optional. Requires BloodTrail 1.2.5. |
+
+## Also on the server (ModDB)
+
+These are not in this repo. The game downloads them when you join:
+
+- **Better Ruins** `0.6.3` — world gen ruins and loot.
+- **BloodTrail** `1.2.5` — animals leave blood when injured.
+- **Footprints** `1.2.5` — players and animals leave prints on soft ground.
+
+## Cleanup
+
+If you already have older official zips, delete them so they do not sit next to these builds:
+
+- ImGui **1.2.7**
+- AutoConfigLib **2.0.10**
+- Auto Map Markers **5.0.3**
+- Any **UnitedMods** / Flawless **1.0.5** zip
