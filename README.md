@@ -13,7 +13,7 @@
 ## Play
 
 1. Install [Vintage Story 1.22.7](https://www.vintagestory.at/).
-2. Install [UnitedMods](https://mods.vintagestory.at/unitedmods) into `%APPDATA%\VintagestoryData\Mods`. You can also use [`UnitedMods-v1.0.2.zip`](mods/UnitedMods-v1.0.2.zip) from this repo.
+2. Install [UnitedMods](https://mods.vintagestory.at/unitedmods) into `%APPDATA%\VintagestoryData\Mods`. You can also use [`UnitedMods-v1.0.3.zip`](mods/UnitedMods-v1.0.3.zip) from this repo.
 3. Join **A New Life** at `70.70.29.116:42420`.
 4. Accept the extra-mod download if the game asks.
 
@@ -39,7 +39,7 @@ Better Ruins, BloodTrail, ConfigLib, and Footprints come from ModDB when you joi
 
 | File | Version |
 | --- | ---: |
-| [UnitedMods-v1.0.2.zip](mods/UnitedMods-v1.0.2.zip) | 1.0.2 |
+| [UnitedMods-v1.0.3.zip](mods/UnitedMods-v1.0.3.zip) | 1.0.3 |
 | [AutoMapMarkers-5.0.4.zip](mods/AutoMapMarkers-5.0.4.zip) | 5.0.4 |
 | [vsimgui_1.2.8.zip](mods/vsimgui_1.2.8.zip) | 1.2.8 |
 | [autoconfiglib_2.0.11.zip](mods/autoconfiglib_2.0.11.zip) | 2.0.11 |
